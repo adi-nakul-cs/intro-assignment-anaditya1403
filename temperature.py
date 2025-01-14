@@ -21,8 +21,6 @@ Nakul Nayak
 
 def celsiusToFahrenheit(celsius):
     fahrenheit = (celsius*1.8) + 32
-    assert celsius>-273, "NO VALUE OF TEMPERATURE CAN BE LESS THAN ABSOLUTE 0"
-    assert celsius<100, "MAX. value in celsius scale is 100"
     return fahrenheit
 
 if __name__ == "__main__":
